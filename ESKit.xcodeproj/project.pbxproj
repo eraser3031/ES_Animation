@@ -13,6 +13,7 @@
 		21525D9E25B087F700BFA99E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21525D9D25B087F700BFA99E /* Assets.xcassets */; };
 		21525DA125B087F700BFA99E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21525DA025B087F700BFA99E /* Preview Assets.xcassets */; };
 		21525DA425B087F700BFA99E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21525DA225B087F700BFA99E /* LaunchScreen.storyboard */; };
+		21525DAD25B0883E00BFA99E /* ESanimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21525DAC25B0883E00BFA99E /* ESanimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		21525DA025B087F700BFA99E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		21525DA325B087F700BFA99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21525DA525B087F700BFA99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21525DAC25B0883E00BFA99E /* ESanimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESanimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				21525D9725B087F500BFA99E /* AppDelegate.swift */,
 				21525D9925B087F500BFA99E /* SceneDelegate.swift */,
 				21525D9B25B087F500BFA99E /* ContentView.swift */,
+				21525DAC25B0883E00BFA99E /* ESanimation.swift */,
 				21525D9D25B087F700BFA99E /* Assets.xcassets */,
 				21525DA225B087F700BFA99E /* LaunchScreen.storyboard */,
 				21525DA525B087F700BFA99E /* Info.plist */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21525DAD25B0883E00BFA99E /* ESanimation.swift in Sources */,
 				21525D9825B087F500BFA99E /* AppDelegate.swift in Sources */,
 				21525D9A25B087F500BFA99E /* SceneDelegate.swift in Sources */,
 				21525D9C25B087F500BFA99E /* ContentView.swift in Sources */,
