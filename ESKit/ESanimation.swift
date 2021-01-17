@@ -15,10 +15,17 @@ struct loadAnimation: ViewModifier {
             .onAppear(){
                 withAnimation(Animation.spring().delay(drand48())){
                     opcity = 1
+                    //fighting!
                     offset = 0
                 }
             }
             .opacity(opcity)
             .offset(y: offset)
+            .onDisappear(){
+                withAnimation(Animation.spring().delay(drand48())){
+                    opcity = 0
+                    offset = 1
+                }
+            }
     }
 }
